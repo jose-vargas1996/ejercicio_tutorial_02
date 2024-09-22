@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../src/img/logo.png" type="image/x-icon">
-    <title>POSTULACION</title>
+    <title>INICIAR SESION</title>
 </head>
 <body>
-    <header>
-        <h1>GRUPO TITAN</h1>
+    <header></header>
+        <h1>SteamBarato</h1>
         <nav>
             <ul>
                 <li><a href="../index/index.html">INICIO</a></li>
@@ -22,32 +22,20 @@
     </header>
     <main>
         <article>
-            <header><h2>POSTULACION</h2></header>
+            <header><h2>Iniciar Sesión</h2></header>
             <form action="">
                 <div>
-                    <label for="name">Nombre(s) y Apellidos: </label><br>
-                    <input type="text" id="name" maxlength="30" placeholder="Nombre(s) completo(s)" required>
+                    <label for="user">Usuario</label><br>
+                    <input type="text" id="user" placeholder="Nombre de usuario" maxlength="10" required><br>
+                    <small>Ingrese su nombre de usuario, evitando los caracteres especiales.</small>
+
                 </div>
                 <br>
                 <div>
-                    <label for="DNI">N° de DNI: </label><br>
-                    <input type="text" id="DNI" maxlength="20" placeholder="N° de documento completo" required>
+                    <label for="pass">Contraseña</label><br>
+                    <input type="password" id="pass" placeholder="Nombre de usuario" maxlength="10" required><br>
+                    <small>Ingrese su contraseña correctamente.</small>
                 </div>
-                <br>
-                <div>
-                    <label for="telefono">Telefono de contacto:</label><br>
-                    <input type="tel" id="telefono" required>
-                </div>
-                <br>
-                <div>
-                    <label for="email">Correo Electronico:</label><br>
-                    <input type="email" id="email" required>
-                </div>
-                <br>
-                <div>
-                    <label for="mensaje">Mensaje: </label><br>
-                    <textarea name="mensaje" id="mensaje" cols="40" rows="5"></textarea>
-                </div>                
                 <button type="submit">Ingresar</button>
             </form>
         </article>
